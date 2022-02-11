@@ -10,6 +10,10 @@
   @include carbon--type-style("body-short-01");
 }
 
+.text02 {
+  color: $text-02;
+}
+
 .warningIcon {
   fill: $inverse-support-03;
   margin-right: $spacing-05;

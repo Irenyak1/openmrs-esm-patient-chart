@@ -80,7 +80,7 @@ const VitalsHeaderTitle: React.FC<VitalsHeaderTitleProps> = ({
           <span className={styles.alignCenter}>
             {view === 'Warning' && <WarningFilled20 aria-label="Warning" className={styles.warningIcon} />}
             <span className={styles.vitalName}>{t('vitalsAndBiometrics', 'Vitals & Biometrics')}</span>
-            <span className={styles.bodyShort01}>
+            <span className={`${styles.bodyShort01} ${styles.text02}`}>
               {t('noDataRecorded', 'No data has been recorded for this patient')}
             </span>
           </span>

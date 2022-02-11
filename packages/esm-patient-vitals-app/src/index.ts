@@ -45,6 +45,7 @@ function setupOpenMRS() {
           view: 'vitals',
           title: 'Vitals',
         },
+        order: 1,
         online: { showAddVitals: true },
         offline: { showAddVitals: false },
       },
